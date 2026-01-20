@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    /* height: 100vh; */
+}
+.parent h2{
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px rgb(125, 9, 9);
+    border-radius: 20px;
+}
+.parent button{
+    padding: 10px 20px;
+    display: block;
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(125, 9, 9);
+    border-radius: 20px;
+}
+.parent button:hover{
+    background-color: black;
+    color: white;
+}
