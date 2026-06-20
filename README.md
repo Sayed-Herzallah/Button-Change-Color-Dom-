@@ -4,9 +4,8 @@ An interactive, lightweight JavaScript project demonstrating real-time styling c
 
 ---
 
-## 📌 Overview
-
-**Button-Change-Color-Dom-** is a training project focused on DOM (Document Object Model) manipulation. It lets users interact with buttons to trigger immediate CSS changes, background transitions, and text style updates dynamically without reloading the page.
+## 📌 System Overview
+This project showcases essential DOM (Document Object Model) manipulation techniques. It lets users interact with buttons to trigger immediate CSS modifications, background transitions, and text style updates dynamically without reloading the page.
 
 ---
 
@@ -14,36 +13,40 @@ An interactive, lightweight JavaScript project demonstrating real-time styling c
 
 | Technology | Purpose |
 | ---------- | ------- |
-| HTML5      | Interactive page body |
-| CSS3       | Style transitions and colors |
-| JavaScript | DOM target selection & event listening |
+| HTML5      | Structured interactive elements |
+| CSS3       | Transition timing, layouts, and custom properties |
+| JavaScript | DOM query selection and click event listeners |
 
 ---
 
-## 🚀 Key Features
-
-* 🎨 **Color Toggling:** Dynamically switches container background colors.
-* 🖱️ **Interactive States:** Changes button colors and UI elements on click events.
-* 🔄 **Dynamic Classes:** Demonstrates adding, removing, and toggling CSS classes.
-* ⚡ **Performance:** Fast, vanilla JS execution with zero dependencies.
-
----
-
-## 🏗️ Project Structure
-
-* `index.html` - Structured layout containing button controls.
-* `css/` - Styling layouts and custom transition sheets.
-* `js/` - Script handling click events and styling updates.
+## 🚀 Core Features
+* 🎨 **Color Toggling:** Dynamically switches container backgrounds with smooth transitions.
+* 🖱️ **Interactive States:** Changes button styling and hover properties on action events.
+* 🔄 **Dynamic Class Binding:** Demonstrates clean implementation of classList API (add, remove, toggle).
+* ⚡ **Performance:** Fast execution using vanilla CSS and JavaScript with zero build tools required.
 
 ---
 
-## 👨&zwj;💻 Author
+## 🏗️ Directory Structure
+```
+├── css/             # Style sheets directory
+│   └── styles.css   # Transition animations and page theme
+├── js/              # Interaction scripts
+│   └── script.js    # Click listeners and class binding logic
+└── index.html       # Interface containing button nodes
+```
 
+---
+
+## ⚙️ Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sayed-Herzallah/Button-Change-Color-Dom-.git
+   ```
+2. Navigate to the folder and open `index.html` in your web browser.
+
+---
+
+## 👨‍💻 Author
 **Sayed Herzallah**  
-Frontend Developer
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving it a star on GitHub.
+Full Stack Developer
